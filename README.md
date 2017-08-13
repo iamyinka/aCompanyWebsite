@@ -6,3 +6,5 @@ A-Company Website
 * jQuery
 
 #iAmResponsive
+#videoBackground
+#carousel

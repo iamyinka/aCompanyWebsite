@@ -9,6 +9,7 @@ font-family: 'Cookie', cursive;
 body {
 	font-family: 'Roboto Slab', sans-serif;
 	font-size: 16px;
+	position: relative;
 }
 
 .container {
@@ -191,4 +192,42 @@ body {
 #about p {
 	font-size: .95em;
 	margin-bottom: 30px;
+}
+
+#promise {
+	padding: 80px 0;
+}
+
+#myCarousel {
+	width: 60%;
+	margin: 80px auto;
+	text-align: center;
+}
+
+#promise img {
+	height: 400px;
+	width: 100%;
+}
+
+.carousel-caption {
+	position: relative;
+	left: auto;
+	right: auto;
+	height: 200px;
+}
+
+
+footer {
+	color: #fff;
+}
+
+footer a {
+	color: #c8dc21;
+	transition: all .5s;
+}
+
+footer a:hover {
+	color: #c8dc21;
+	text-decoration: none;
+	text-shadow: 2px 2px 1px orange;
 }
